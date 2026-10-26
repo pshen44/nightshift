@@ -1,0 +1,32 @@
+{
+  "name": "nightshift-agents",
+  "version": "0.1.0",
+  "description": "An AI dev team that works your backlog while you sleep. Scout, build, test, review, merge — on Claude Code, with a live control-room dashboard.",
+  "type": "module",
+  "bin": {
+    "nightshift": "bin/nightshift.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "public"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "demo": "node bin/nightshift.js demo"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai-agents",
+    "orchestrator",
+    "autonomous",
+    "multi-agent",
+    "code-review",
+    "devtools"
+  ],
+  "license": "MIT"
+}
